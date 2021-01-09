@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html style="overflow-y: auto;">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook Comments Prediction</title>
+</head>
+
+<body style="text-align: center; margin: auto; font-family: 'Helvetica';
+background: #000;
+color: #fff;
+font-size: 18px;">
+  <div class="login">
+    <h1>Facebook Comments Prediction</h1>
+    <h2>Enter the data :</h2>
+    <form action="{{ url_for('predict')}}"method="post" style="display: block;
+    margin: 8px 0;
+    box-sizing: border-box;">
+      <label>Base datetime :</label>
+      <select id="days" name="days" style="font-size: medium; cursor: pointer; padding: 7px 10px;">
+        <option value="0">Sunday</option>
+        <option value="1">Monday</option>
+        <option value="2">Tuesday</option>
+        <option value="3">Wednesday</option>
+        <option value="4">Thursday</option>
+        <option value="5">Friday</option>
+        <option value="6">Saturday</option>
+      </select>
+      <br>
+      <br>
+      <label>Page popularity</label>
+      <br>
+      <input type="text" name="page popularity" required="required" style="
+      padding: 6px; margin: 5px; text-align: left;  "/>
+      <br>
+      <label>Page checking</label>
+      <br>
+      <input type="text" name="page checking" required="required" style="
+      padding: 6px; margin: 5px; text-align: left;" />
+      <br>
+      <label>30 derived (list)</label>
+      <br>
+      <input type="text" name="30 derived (list)" required="required" style="
+      padding: 6px; margin: 5px; text-align: left;" />
+      <br>
+      <label>CC1</label>
+      <br>
+      <input type="text" name="CC1"required="required" style="
+      padding: 6px; margin: 5px; text-align: left;" />
+      <br>
+      <label>CC2</label>
+      <br>
+      <input type="text" name="CC2"required="required" style="
+      padding: 6px; margin: 5px; text-align: left;" />
+      <br>
+      <label>CC3</label>
+      <br>
+      <input type="text" name="CC3" required="required"  style="
+      padding: 6px; margin: 5px; text-align: left;"/>
+      <br>
+      <label>CC4</label>
+      <br>
+      <input type="text" name="CC4" required="required" style="
+      padding: 6px; margin: 5px; text-align: left;" />
+      <br>
+      <label>CC5</label>
+      <br>
+      <input type="text" name="CC5" required="required" style="
+      padding: 6px; margin: 5px; text-align: left;" />
+      <br>
+      <label>Base time</label>
+      <br>
+      <input type="text" name="base time" required="required" style="
+      padding: 6px; margin: 5px; text-align: left;" />
+      <br>
+      <label>Post length</label>
+      <br>
+      <input type="text" name="post length" required="required" style="
+      padding: 6px; margin: 5px; text-align: left;" />
+      <br>
+      <label>H local</label>
+      <br>
+      <input type="text" name="H local" required="required" style="
+      padding: 6px; margin: 5px; text-align: left;" />
+      <br>
+      <label>Page category (number)</label>
+      <br>
+      <input type="text" name="page category" required="required" style="
+      padding: 6px; margin: 5px; text-align: left;" />
+      <br>
+      <br>
+      <button type="submit" style="background-color: #4267B2;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;">Predict the number of comments</button>
+    </form>
+   <br>  
+   <br>
+  </div>
+</body>
+</html>
