@@ -1,6 +1,6 @@
 # Python For Data Analysis 
 
-contributors : [Hélène Peignard](@helenep21), [Julie Mordacq](https://archive.ics.uci.edu/ml/datasets/Facebook+Comment+Volume+Dataset)
+contributors : [Hélène Peignard](https://github.com/helenep21), [Julie Mordacq](https://github.com/jumdc)
 
 ## Prerequisites 
 
