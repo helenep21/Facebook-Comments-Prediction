@@ -1,6 +1,6 @@
 # Python For Data Analysis 
 
-contributors : [Hélène Peignard](@helenep21), [Julie Mordacq](@jumdc)
+contributors : [Hélène Peignard](@helenep21), [Julie Mordacq](https://archive.ics.uci.edu/ml/datasets/Facebook+Comment+Volume+Dataset)
 
 ## Prerequisites 
 
@@ -12,7 +12,7 @@ Insure that you have the following requirements :
 
 ## The dataset 
 
-Our dataset was the [Facebook Comment Volume Prediction](https://archive.ics.uci.edu/ml/datasets/Facebook+Comment+Volume+Datasets). 
+Our dataset was the [Facebook Comment Volume Prediction](https://archive.ics.uci.edu/ml/datasets/Facebook+Comment+Volume+Dataset). 
 
 Since several years, social networking services use has highly increased. This dataset fit in the  need to understand the behavior of users on those services. In 2016, Facebook was the most active social network with 1.76 billion users. 
 
