@@ -19,6 +19,6 @@ Since several years, social networking services use has highly increased. This d
 Thus, the **goal** is to predict the number of comments in the next H hours (H being a feature of the dataset).
 
 ## The content
-- One notebook containing the data exploration, as well as the training of the models
-- files concerning the flask API
+- One notebook containing the data exploration, as well as the training of the models (in the API folder)
+- files concerning the flask API (also in API folder)
 
